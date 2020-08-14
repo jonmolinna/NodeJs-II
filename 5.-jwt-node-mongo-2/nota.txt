@@ -1,0 +1,7 @@
+npm init --yes
+npm install express
+npm install mongoose
+npm install jsonwebtoken
+npm install morgan
+
+node server.js => para ejecutar el servidor

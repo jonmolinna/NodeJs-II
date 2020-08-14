@@ -1,0 +1,27 @@
+Comando Instalados
+::::::::::::::::::::::::::::::::::::::::::::
+1.- npm init --yes => para inicializar con el proyecto
+2.- npm install typescript -D
+3.- npx tsc --init => Para inicializar el codigo de typescript
+4.- Algunos Configuraciones en el archivo tsconfig.json
+    - 7.-"target": "es6"
+    - 17.-"outDir": "./dist", => crea y almacena codigos en la carpeta dist
+    - 69.- "exclude": ["node_modules"] => consiste en excluir la carpeta node_modules
+5.- npx tsc => para inicializar con el typescript
+6.- npm install express
+7.- npm install mongoose => permite conectar al base de datos
+8.- npm install express-handlebars => es un motor de plantillas
+9.- npm install morgan => visualizar las peticiones http
+10.- npm install rimraf => permite eliminar algunos carpetas, sse utiliza el produccion
+11.- npm install @types/express -D => permite ver las funcionalidades de los modulos de JS/express (autocompletado, correccion de errores. entre otros)
+12.- npm install @types/mongoose -D
+13.- npm install nodemon -D => Consiste en reinicir el codigo
+14.- npm install ts-node -D => Ejecuta el codigo sin convertirlo
+15.- npm install @types/morgan -D
+16.- npm install @types/express-handlebars -D
+17.- npx tsc => para generar la carpera de distribucion
+18.- npm install ncp => modulo que permite copiar carpetas como public, views
+19.- npm run public => una vez configurado en package.json, permite copiar la carpeta de produccion a la carpeta de distribucion
+20:- npm run build => Genera todo el comando, ver package.json
+21.- node dist/index.js => permite despliegar el codigo final. 
+22.- npm start => igual al 21

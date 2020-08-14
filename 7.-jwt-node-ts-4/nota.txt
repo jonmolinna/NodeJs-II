@@ -1,0 +1,30 @@
+npm install typescript -D
+npx tsc --init => crea un archivo de configuracion de typescript
+npm install concurrently -D => Permite ejecutar dos comandos a la vez
+npm install nodemon -D
+npm install express
+npm install @types/express -D => permite ver los valores de express
+npm install morgan
+npm install @types/morgan -D
+npm install mongoose
+npm install @types/mongoose -D
+npm install jsonwebtoken
+npm install @types/jsonwebtoken -D
+npm install dotenv
+npm install @types/dotenv -D
+npm install bcryptjs
+npm install @types/bcryptjs -D
+
+7.- "target": "es5",  => "target": "es6"
+15.- // "sourceMap": true, => "sourceMap": true,
+17.- // "outDir": "./",  => "outDir": "./dist",
+44.- // "moduleResolution": "node", => "moduleResolution": "node",
+45.- // "baseUrl": "./", => "baseUrl": "./src",
+
+69.- "include": ["src"],
+70.- "exclude": ["node_modules"]
+
+npx tsc => para obtener el carpeta de dist
+
+/// Afuera debes poner un archivo .env al altura de src
+TOKEN_SECRET=whatevertoken
